@@ -181,6 +181,7 @@ export default class TimeGrid extends Component {
 
         <div ref='content' className='rbc-time-content'>
           <div ref='timeIndicator' className='rbc-current-time-indicator' />
+          {console.log(width)}
 
           <TimeColumn
             {...this.props}
